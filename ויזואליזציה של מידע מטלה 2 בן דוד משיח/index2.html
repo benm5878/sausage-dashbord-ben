@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ניתוח טבלת נקניקים</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e8f5e9, #ffffff);
+      color: #2c3e50;
+      text-align: center;
+    }
+    h1 {
+      color: #2e7d32;
+      font-size: 2.5rem;
+    }
+    p {
+      max-width: 700px;
+      margin: 1rem auto 2rem;
+      font-size: 1.1rem;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    a.button {
+      background-color: #66bb6a;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #388e3c;
+    }
+  </style>
+</head>
+<body>
+  <h1>ניתוח טבלת נקניקים</h1>
+  <p>
+    לפניכם מערכת דשבורדים אינטראקטיבית אשר נבנתה לצורך ניתוח נתוני מכירות בתחום מוצרי הנקניקים.
+    כל כפתור מוביל לדשבורד עצמאי המציג ניתוח שונה: לפי קטגוריה, לקוח, פלטפורמה והנחות.
+  </p>
+  <div class="button-container">
+    <a class="button" href="dash1.html">דשבורד 1 - לפי סוג לקוח</a>
+    <a class="button" href="dash2.html">דשבורד 2 - לפי קטגוריה</a>
+    <a class="button" href="dash3.html">דשבורד 3 - לפי פלטפורמה</a>
+    <a class="button" href="dash4.html">דשבורד 4 - הנחות ומחירים</a>
+  </div>
+</body>
+</html>
